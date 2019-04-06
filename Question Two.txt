@@ -1,0 +1,12 @@
+WHY THE CODE WILL CRASH:
+
+-setType(HTTP..); the method should return plain text rather it returns a HTTP text.
+
+-putExtra(); this function is used to pass data from one activity to another, but for our case Intent is not
+	     directed to any class. i.e new Intent(getAppclicationContext, yourclassname.class);
+
+FIXING THE CODE:
+
+-add setData(Uri.parse("smsto:", textMessage);
+
+-change setType("text/plain");

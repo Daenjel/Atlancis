@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Atlancis</string>
+    <string name="submit">Submit</string>
+    <string name="socks">Enter Number of Socks</string>
+    <string name="color">Enter Socks Color</string>
+    <string name="color_socks">Color Socks</string>
+    <string name="result">Result</string>
+    <string name="display">Number of Socks: %1$s </string>
+    <string name="pick">Pick Color</string>
+
+    <string-array name="colors">
+        <item>pick color</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Purple</item>
+
+    </string-array>
+</resources>
